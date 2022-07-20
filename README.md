@@ -12,3 +12,4 @@ E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 # The trained model weights for the test are provided in the folder ‘Models’.
 
 # For evaluation, please directly run “test.py” with corrected paths to the dataset and models. 
+

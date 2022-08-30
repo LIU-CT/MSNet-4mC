@@ -20,11 +20,11 @@ E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 
 ## Usage
 •	Run the default dataset
-python MSNet_4mC.py --Dataset Lin_2017_Dataset --Species <Species> 
+'<python MSNet_4mC.py --Dataset Lin_2017_Dataset --Species <Species>>'
 OR
-python MSNet_4mC.py --Dataset Li_2020_Dataset --Species <Species>
+'<python MSNet_4mC.py --Dataset Li_2020_Dataset --Species <Species>>'
 •	Make the prediction for customized data
-python MSNet_4mC.py --Dataset User_Dataset --Species <Species> --Fasta_file < Fasta_file >
+'<python MSNet_4mC.py --Dataset User_Dataset --Species <Species> --Fasta_file < Fasta_file >>'
 •	For evaluation on the default dataset, users can also directly run “test.py” with corrected paths to the datasets and models. 
 
 

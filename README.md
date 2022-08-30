@@ -11,12 +11,12 @@ E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 * The trained model weights for the test are provided in the folder ‘Models’.  
 
 ## Dependency
-•	Python 3.8.8 and Pytorch 1.11.0 or later versions
+* Python 3.8.8 and Pytorch 1.11.0 or later versions  
 
 ## Installation Guide
-•	Download from GitHub at https://github.com/LIU-CT/MSNet-4mC
-•	cd MSNet-4mC
-•	pip install -r requirements.txt
+* Download from GitHub at https://github.com/LIU-CT/MSNet-4mC  
+* cd MSNet-4mC  
+* pip install -r requirements.txt  
 
 ## Usage
 •	Run the default dataset

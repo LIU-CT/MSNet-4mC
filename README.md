@@ -5,10 +5,10 @@ Affiliation: Department of Intelligence Science and Technology, Graduate School 
 E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 
 ## Details
-•	Users can run the MSNet_4mC.py to identify DNA 4mC sites.
-•	The folders of “Li_2020_dataset” and “Lin_2017 dataset” contain the datasets and the files for experiments.
-•	The Lin_2017 dataset and Li_2020 dataset can be also accessed at http://DeepTorrent.erc.monash.edu/
-•	The trained model weights for the test are provided in the folder ‘Models’.
+* Users can run the MSNet_4mC.py to identify DNA 4mC sites.  
+* The folders of “Li_2020_dataset” and “Lin_2017 dataset” contain the datasets and the files for experiments.  
+* The Lin_2017 dataset and Li_2020 dataset can be also accessed at http://DeepTorrent.erc.monash.edu/  
+* The trained model weights for the test are provided in the folder ‘Models’.  
 
 ## Dependency
 •	Python 3.8.8 and Pytorch 1.11.0 or later versions

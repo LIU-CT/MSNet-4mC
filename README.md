@@ -1,24 +1,24 @@
-#MSNet-4mC
+# MSNet-4mC
 
 Author: Liu Chunting
 Affiliation: Department of Intelligence Science and Technology, Graduate School of Informatics, Kyoto University
 E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 
-##Details
+## Details
 •	Users can run the MSNet_4mC.py to identify DNA 4mC sites.
 •	The folders of “Li_2020_dataset” and “Lin_2017 dataset” contain the datasets and the files for experiments.
 •	The Lin_2017 dataset and Li_2020 dataset can be also accessed at http://DeepTorrent.erc.monash.edu/
 •	The trained model weights for the test are provided in the folder ‘Models’.
 
-##Dependency
+## Dependency
 •	Python 3.8.8 and Pytorch 1.11.0 or later versions
 
-##Installation Guide
+## Installation Guide
 •	Download from GitHub at https://github.com/LIU-CT/MSNet-4mC
 •	cd MSNet-4mC
 •	pip install -r requirements.txt
 
-##Usage
+## Usage
 •	Run the default dataset
 python MSNet_4mC.py --Dataset Lin_2017_Dataset --Species <Species> 
 OR

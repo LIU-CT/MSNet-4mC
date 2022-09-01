@@ -34,11 +34,11 @@ python MSNet_4mC.py --Dataset User_Dataset --Species <Species> --Fasta_file <Fas
 * For evaluation on the default dataset, users can also directly run *test.py* with corrected paths to the datasets and models.   
 ### For training
 * Train the default dataset  
-  * Run “training_basemodel.py” to train the base model.  
-  * Run “training_scratch_and_finetuning.py” to train the species-specific models from scratch or fine-tuning the hyperparameters to retrain the species-specific models based the base model with the different settings of load_pretrain and load_path.
+  * Run *training_basemodel.py* to train the base model.  
+  * Run *training_scratch_and_finetuning.py* to train the species-specific models from scratch or fine-tuning the hyperparameters to retrain the species-specific models based the base model with the different settings of load_pretrain and load_path.
 * Train the customized data  
-  * Firstly, use “class_weight.py” to calculate class weights for different species.  
-  * Then, use “training_basemodel.py” to train a base model on the merged training dataset.  
-  * Finally, use “training_scratch_and_finetuning.py” to retrain the species-specific model on each species training dataset.
+  * Firstly, use *class_weight.py* to calculate class weights for different species.  
+  * Then, use *training_basemodel.py* to train a base model on the merged training dataset.  
+  * Finally, use *training_scratch_and_finetuning.py* to retrain the species-specific model on each species training dataset.
 
 

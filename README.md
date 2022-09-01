@@ -19,6 +19,7 @@ E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 * pip install -r requirements.txt  
 
 ## Usage
+### For evaluation:
 * Run the default dataset  
 ```
 python MSNet_4mC.py --Dataset Lin_2017_Dataset --Species <Species>
@@ -31,5 +32,12 @@ python MSNet_4mC.py --Dataset Li_2020_Dataset --Species <Species>
 python MSNet_4mC.py --Dataset User_Dataset --Species <Species> --Fasta_file <Fasta_file>  
 ```
 * For evaluation on the default dataset, users can also directly run “test.py” with corrected paths to the datasets and models.   
+### For training
+* Train the default dataset
+Run “training_basemodel.py” and “training_scratch_and_finetuning.py”.
+•	Train the customized data
+Firstly, use “class_weight.py” to calculate class weights for different species.
+Then, use “training_basemodel.py” to train a base model on the merged training dataset.
+Finally, use “training_scratch_and_finetuning.py” to retrain the species-specific model on each species training dataset.
 
 

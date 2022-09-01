@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed Apr 27 17:18:40 2022
-
-@author: lllli
+@author: liu chunting
+Department of IST, Kyoto University
 """
 #import matplotlib.pyplot as plt
 #import seaborn as sns

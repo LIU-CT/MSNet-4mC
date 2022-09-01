@@ -38,7 +38,7 @@ python MSNet_4mC.py --Dataset User_Dataset --Species <Species> --Fasta_file <Fas
   * Run *training_scratch_and_finetuning.py* to train the species-specific models from scratch or fine-tuning the hyperparameters to retrain the species-specific models based the base model with the different settings of load_pretrain and load_path.
 * Train the customized data  
   * Firstly, use *class_weight.py* to calculate class weights for different species.  
-  * Then, use *training_basemodel.py* to train a base model on the merged training dataset.  
+  * Secondly, use *training_basemodel.py* to train a base model on the merged training dataset.  
   * Finally, use *training_scratch_and_finetuning.py* to retrain the species-specific model on each species training dataset.
 
 

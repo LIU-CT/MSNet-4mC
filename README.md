@@ -8,8 +8,7 @@ E-mail: liuchunting@kuicr.kyoto-u.ac.jp
 * Users can run the MSNet_4mC.py to identify DNA 4mC sites.  
 * The folders of "Li_2020_dataset" and "Lin_2017 dataset" contain the datasets and the files for experiments.  
 * The Lin_2017 dataset and Li_2020 dataset can be also accessed at http://DeepTorrent.erc.monash.edu/  
-* The trained model weights for the test are provided in the folder "Models".  
-* The training codes are given in the Dataset directories.  
+* The trained model weights for the test are provided in the folder "Models".   
 
 ## Dependency
 * Python 3.8.8 and Pytorch 1.11.0 or later versions  
@@ -34,6 +33,7 @@ python MSNet_4mC.py --Dataset User_Dataset --Species <Species> --Fasta_file <Fas
 ```
 * For evaluation on the default dataset, users can also directly run *test.py* with corrected paths to the datasets and models.   
 ### For training
+* The training codes are given in the Dataset directories. 
 * Train the default dataset  
   * Run *training_basemodel.py* to train the base model.  
   * Run *training_scratch_and_finetuning.py* to train the species-specific models from scratch or fine-tuning the hyperparameters to retrain the species-specific models based the base model with the different settings of load_pretrain and load_path.
